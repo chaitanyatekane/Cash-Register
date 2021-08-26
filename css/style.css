@@ -58,11 +58,13 @@ h1 {
 .form-group:nth-child(2) {
     visibility: hidden;
     transform: scale(0);
+    display: none;
 }
 
 .form-group:nth-child(2).active {
     transform: scale(1);
     visibility: visible;
+    display: block;
 }
 
 .form-group:last-child {
