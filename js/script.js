@@ -11,4 +11,9 @@ function displayCashAmount() {
 
 function handleFormSubmission(event) {
     event.preventDefault();
+    fillTableWithNotes(billAmount.ariaValueMax, cashAmount.value);
+}
+
+function fillTableWithNotes(amount, cash) {
+    
 }
