@@ -43,9 +43,9 @@ function printError(message) {
 
 function validateAmounts(amount, cash) {
   if (!isNaN(amount) && !isNaN(cash)) {
-    if (amount > cash) {
+    if (parseInt(amount, 10) > parseInt(cash, 10)) {
       return {
-        message: "Do you want to wash the plates?",
+        message: "Do you want to wash the plates? 😂",
         result: false,
       };
     }
